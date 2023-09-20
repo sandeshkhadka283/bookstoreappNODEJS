@@ -1,0 +1,38 @@
+# Ignore node_modules directory, where dependencies are installed
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore .env files containing sensitive information
+.env
+
+# Ignore built and compiled files
+dist/
+out/
+build/
+*.out.js
+*.map
+
+# Ignore OS-specific files and directories
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+*.sublime*
+*.suo
+*.user
+*.sln
+*.swp
+*.iml
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore testing and coverage directories
+coverage/
+.nyc_output/
